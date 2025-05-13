@@ -1,0 +1,24 @@
+.header {
+    height: 80px;
+    background: #333;
+    display: flex;
+    align-items: center
+}
+
+.header nav {
+    gap: 10px;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.header nav a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.header nav a:hover {
+    cursor: pointer;
+}

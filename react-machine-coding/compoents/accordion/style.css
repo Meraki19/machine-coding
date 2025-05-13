@@ -1,0 +1,33 @@
+
+.accord-header {
+    height: 20px;
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid grey
+}
+
+.accordion-item {
+    border:1px solid grey
+}
+.accordion-header {
+    display: flex;
+    background-color: rgb(165, 193, 243);
+}
+.accordion-header span {
+    align-items: end;
+}
+.accordion-header h3 {
+    margin: 0;
+    padding: 10px;
+    flex: 3;
+}
+.accordion-content {
+   
+    border-top:1px solid grey;
+    height: 0px;
+}
+
+.show-content{
+    padding: 10px;
+    height: 50px;
+}

@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@material-tailwind/react": "^2.1.10",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "^6.28.0",
+    "react-router-dom": "^6.28.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}

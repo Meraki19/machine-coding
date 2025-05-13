@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../assets/Roboto-VariableFont_wdth\,wght.ttf');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0
+}
+
+.center-content {
+    width: 80%;
+    margin: 30px auto;
+}
+button {
+    height: 40px;
+    border-radius: 0px;
+    padding: 0 12px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.btn-primary {
+    border: 1px solid #242724;
+    background: #333;
+    color: white;
+}
+.btn-secondary {
+    color: #000;
+    background-color: white;
+    border: 1px solid #333;
+}
