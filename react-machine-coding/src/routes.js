@@ -4,6 +4,7 @@ import Accordion from "../compoents/accordion/custom-accordion";
 import YoutubeLiveStreamWindow from "../compoents/youtube-live-stream/youtube-live-stream-window";
 import RedditNestedComments from "../compoents/reddit-comments/reddit-comments"
 import SeachBar from '../compoents/autocomplete-search-bar/search-bar'
+import Calendar from '../compoents/calendar/calendar'
 import App from "./app";
 
 export const routes = createBrowserRouter([
@@ -27,6 +28,10 @@ export const routes = createBrowserRouter([
       {
         path:'/search',
         element: <SeachBar/>
+      },
+      {
+        path:'/calendar',
+        element: <Calendar/>
       }
     ],
   },

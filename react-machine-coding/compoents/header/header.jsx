@@ -16,6 +16,9 @@ const Header = () => {
         <NavLink to="/search" end>
           Search Bar
         </NavLink>
+        <NavLink to="/calendar" end>
+          Calendar
+        </NavLink>
       </nav>
     </div>
   );
