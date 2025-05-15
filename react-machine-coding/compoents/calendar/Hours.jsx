@@ -36,7 +36,7 @@ const Hours = ({ startOfWeekDate, weekData, setActivityData }) => {
       );
     });
     setCurrentWeekData(data);
-  }, [weekData]);
+  }, [weekData,startOfWeekDate]);
 
   const handleOpenAddEventModal = (currentevent, isEdit, e) => {
     e.stopPropagation();
